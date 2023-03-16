@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+/* HEADER INICIO */
+.container-img{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-clothing-literary-psd-ps-source-file-image_7370.jpg);
+    height: 180px;
+}
+.titulo{
+    position: relative;
+    top: 70px;
+}
+.mapa{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.container-mapa{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px;
+}
+.img_wspp{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    bottom: 7px;
+}
+.img_instagram{
+    height: 60px;
+    width: 60px;
+}
+.links_contacto{
+    display: flex inline;
+    position: relative;
+}
+
+nav{
+    width: 1367px;
+    height: 30px;
+    background-color: #459a96;
+    border: solid;
+    position: relative;
+    bottom: 85px;
+    right: 13px;
+
+}
+ul{
+    height: 30px;
+    text-align: center;
+    list-style: none;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+li{
+    display: inline;
+    padding: 50px;
+}
+/* MAIN INCIO*/
+/* SECCIONES */
+.secciones{
+    height: 490px;
+}
+/* SECCION MUJER */
+.medida-card-mujer{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top:5px;
+    left: 18px;
+}
+.container-mujer{
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+}
+.titulo-mujer{
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.buzo-blanco-mujer{
+    height: 207px;
+}
+.conjunto-morado{
+    height: 207px;
+}
+/* SECCION HOMBRES*/
+.medida-card-hombre{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+.container-hombre{
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    bottom: 415px;
+    left: 720px;
+
+}
+.titulo-hombre{
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.buzo-blanco-mujer{
+    height: 207px;
+}
+.conjunto-morado{
+    height: 207px;
+}
+/* MAIN BUZOS*/
+
+/* SECCION MUJER */
+.medida-card-mujer-buzos{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top:5px;
+    left: 18px;
+}
+.container-mujer-buzos{
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+}
+.titulo-mujer-buzos{
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.buzo-mujer-celeste{
+    height: 207px;
+}
+.buzo-mujer-negro{
+    height: 207px;
+}
+.buzo-mujer-amarillo{
+    height: 207px;
+}
+/* SECCION HOMBRES*/
+.medida-card-hombre-buzos{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+.container-hombre-buzos{
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    bottom: 415px;
+    left: 720px;
+
+}
+.titulo-hombre-buzos{
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.buzo-hombre-negro{
+    height: 207px;
+    width: 182px;
+}
+.buzo-hombre-negro-liso{
+    height: 207px;
+    width: 182px;
+}
+.buzo-hombre-liso{
+    height: 207px;
+    width: 182px;
+}
