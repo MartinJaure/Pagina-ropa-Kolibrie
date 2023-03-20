@@ -5,43 +5,50 @@
 body{
     background-color: gray;
 }
+/* MAIN */
+main{
+    height: 400px;
+}
 /* HEADER INICIO */
 .container-img{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-clothing-literary-psd-ps-source-file-image_7370.jpg);
-    height: 180px;
+    height: 200px;
 }
 .titulo{
     position: relative;
     top: 70px;
 }
-.mapa{
+.mapa {
     width: 200px;
     height: 150px;
     position: relative;
-    bottom: 50px;
+    bottom: 80px;
 }
-.container-mapa{
+
+.container-mapa {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
 }
-.img_wspp{
+.img_wspp {
     height: 60px;
     width: 60px;
     position: relative;
     bottom: 7px;
 }
-.img_instagram{
+
+.img_instagram {
     height: 60px;
     width: 60px;
 }
-.links_contacto{
+
+.links_contacto {
     display: flex inline;
     position: relative;
+    top: 20px;
 }
-
 nav{
     width: 1367px;
     height: 30px;
@@ -50,29 +57,27 @@ nav{
     position: relative;
     bottom: 85px;
     right: 13px;
-
+    ul{
+        height: 30px;
+        text-align: center;
+        list-style: none;
+        padding-right: 50px;
+        li{
+            display: inline;
+            padding: 50px;
+            a{
+                text-decoration: none;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: black;
+            }
+        }
+    }
 }
-ul{
-    height: 30px;
-    text-align: center;
-    list-style: none;
-    padding-right: 50px;
-}
-a{
-    text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-}
-li{
-    display: inline;
-    padding: 50px;
-}
-/* MAIN INCIO*/
-/* SECCIONES */
-.secciones{
+.secciones {
     height: 490px;
 }
-/* SECCION MUJER */
+  /* SECCION MUJERES INICIO */
+
 .medida-card-mujer{
     width: 550px;
     height: 50px;
@@ -103,103 +108,318 @@ li{
     height: 207px;
 }
 /* SECCION HOMBRES*/
-.medida-card-hombre{
+.medida-card-hombre {
     width: 550px;
     height: 50px;
     position: relative;
     top: 5px;
     left: 18px;
 }
-.container-hombre{
+
+.container-hombre {
     width: 585px;
     height: 455px;
     background-color: #459a96;
     position: relative;
     bottom: 415px;
     left: 720px;
-
 }
-.titulo-hombre{
+
+.titulo-hombre {
     background-color: grey;
     border: solid;
     height: 30px;
     position: relative;
     top: 5px;
 }
-.buzo-blanco-mujer{
-    height: 207px;
-}
-.conjunto-morado{
-    height: 207px;
-}
-/* MAIN BUZOS*/
 
-/* SECCION MUJER */
-.medida-card-mujer-buzos{
+.buzo-blanco-mujer {
+    height: 207px;
+}
+
+.conjunto-morado {
+    height: 207px;
+}
+
+/* MAIN BUZOS*/
+  /* SECCION MUJER */
+.medida-card-mujer-buzos {
     width: 550px;
     height: 50px;
     position: relative;
-    top:5px;
+    top: 5px;
     left: 18px;
 }
-.container-mujer-buzos{
+
+.container-mujer-buzos {
     width: 585px;
     height: 455px;
     background-color: #459a96;
     position: relative;
     top: 40px;
     left: 20px;
-
 }
-.titulo-mujer-buzos{
+
+.titulo-mujer-buzos {
     background-color: grey;
     border: solid;
     height: 30px;
     position: relative;
     top: 5px;
 }
-.buzo-mujer-celeste{
+
+.buzo-mujer-celeste {
     height: 207px;
 }
-.buzo-mujer-negro{
+
+.buzo-mujer-negro {
     height: 207px;
 }
-.buzo-mujer-amarillo{
+
+.buzo-mujer-amarillo {
     height: 207px;
 }
+
 /* SECCION HOMBRES*/
-.medida-card-hombre-buzos{
+.medida-card-hombre-buzos {
     width: 550px;
     height: 50px;
     position: relative;
     top: 5px;
     left: 18px;
 }
-.container-hombre-buzos{
+
+.container-hombre-buzos {
     width: 585px;
     height: 455px;
     background-color: #459a96;
     position: relative;
     bottom: 415px;
     left: 720px;
-
 }
-.titulo-hombre-buzos{
+
+.titulo-hombre-buzos {
     background-color: grey;
     border: solid;
     height: 30px;
     position: relative;
     top: 5px;
 }
-.buzo-hombre-negro{
+
+.buzo-hombre-negro {
     height: 207px;
     width: 182px;
 }
-.buzo-hombre-negro-liso{
+
+.buzo-hombre-negro-liso {
     height: 207px;
     width: 182px;
 }
-.buzo-hombre-liso{
+
+.buzo-hombre-liso {
     height: 207px;
     width: 182px;
+}
+/* PANTALONES */
+
+/* SECCION MUJERES */
+.pantalon-m1{
+    height: 207px;
+}
+.pantalon-m2{
+    height: 207px;
+}
+.pantalon-m3{
+    height: 207px;
+}
+
+/* SECCION HOMBRES */
+.medida-card-hombre-pantalones {
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+
+.container-hombre-pantalones {
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    bottom: 415px;
+    left: 720px;
+}
+
+.titulo-hombre-pantalones {
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+
+.pantalon-h1{
+    height: 207px;
+}
+.pantalon-h2{
+    height: 207px;
+}
+.pantalon-h3{
+    height: 207px;
+}
+/* PIJAMAS*/
+/* SECCION MUJERES */
+.pijama-m1{
+    height: 207px;
+}
+.pijama-m2{
+    height: 207px;
+}
+.pijama-m3{
+    height: 207px;
+}
+/* SECCION HOMBRES */
+
+.medida-card-hombre-pijama {
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+.container-hombre-pijama {
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    bottom: 415px;
+    left: 720px;
+}
+.titulo-hombre-pijama {
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.pijama-h1{
+    height: 207px;
+}
+.pijama-h2{
+    height: 207px;
+}
+.pijama-h3{
+    height: 207px;
+}
+
+/* REMERAS */
+/* SECCION MUJERES */
+.remera-m1{
+    height: 207px;
+}
+.remera-m2{
+    height: 207px;
+}
+.remera-m3{
+    height: 207px;
+}
+/* SECCION HOMBRES */
+.medida-card-hombre-remera {
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 18px;
+}
+.container-hombre-remera {
+    width: 585px;
+    height: 455px;
+    background-color: #459a96;
+    position: relative;
+    bottom: 415px;
+    left: 720px;
+}
+.titulo-hombre-remera {
+    background-color: grey;
+    border: solid;
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.remera-h1{
+    height: 207px;
+}
+.remera-h2{
+    height: 207px;
+}
+.remera-h3{
+    height: 207px;
+}
+/* VARIABLE DE VISTA MOBILE */
+
+@media screen and (max-width: 450px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* HEADER */
+    iframe{
+        display: none;
+    }
+    .links_contacto{
+        display: none;
+    }
+    nav{
+        background-color: transparent;
+        border: 0px;
+        width: 100%;
+        position: relative;
+        top: 160px;
+        ul{
+            width: 100vw;
+            height: 10px;
+            position: relative;
+            left: 10px;
+            display: flex;
+            flex-direction: column;
+            li{
+                width: 100%;
+                background-color: #459a96;
+                border: black solid;
+                padding: 5px;
+            }
+        }
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        .secciones{
+            display: block;
+        }
+        .container-mujer{
+            width: 300px;
+            height: 1250px;
+            position: relative;
+            top: 50%;
+            left: 10%;
+        }
+        .medida-card-mujer{
+            height: 150px;
+            width: 200px;
+            position: relative;
+            left: 50px;
+        }
+        .container-hombre{
+            width: 300px;
+            height: 1250px;
+        }
+        .medida-card-hombre{
+            height: 150px;
+            width: 200px;
+            position: relative;
+            left: 50px;
+        }
+    }
 }
