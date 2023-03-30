@@ -4,30 +4,39 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #a1c1be;
 }
 
-/* MAIN */
-main {
-  height: 400px;
+/* Footer*/
+footer {
+  background-color: white;
+  height: 150px;
+  position: relative;
+  top: 150px;
+}
+
+.links-contacto {
+  position: relative;
+  bottom: 110px;
 }
 
 /* HEADER INICIO */
-.container-img {
-  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-clothing-literary-psd-ps-source-file-image_7370.jpg);
-  height: 200px;
+header {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  top: 100px;
 }
 
 .titulo {
   position: relative;
-  top: 70px;
 }
 
 .mapa {
   width: 200px;
   height: 150px;
   position: relative;
-  bottom: 80px;
+  top: 20px;
 }
 
 .container-mapa {
@@ -50,39 +59,10 @@ main {
   width: 60px;
 }
 
-.links_contacto {
-  display: flex inline;
-  position: relative;
-  top: 20px;
-}
-
-nav {
-  width: 1367px;
-  height: 30px;
-  background-color: #459a96;
-  border: solid;
-  position: relative;
-  bottom: 85px;
-  right: 13px;
-}
-nav ul {
-  height: 30px;
-  text-align: center;
-  list-style: none;
-  padding-right: 50px;
-}
-nav ul li {
-  display: inline;
-  padding: 50px;
-}
-nav ul li a {
-  text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
-}
-
 .secciones {
   height: 490px;
+  position: relative;
+  top: 100px;
 }
 
 /* SECCION MUJERES INICIO */
@@ -396,63 +376,103 @@ nav ul li a {
     padding: 0;
   }
   /* HEADER */
-  iframe {
-    display: none;
-  }
-  .links_contacto {
-    display: none;
-  }
-  nav {
-    background-color: transparent;
-    border: 0px;
-    width: 100%;
+  .links-contacto {
     position: relative;
-    top: 160px;
+    top: 30%;
   }
-  nav ul {
-    width: 100vw;
-    height: 10px;
+  /* FOOTER */
+  footer {
     position: relative;
-    left: 10px;
-    display: flex;
-    flex-direction: column;
+    top: 2220px;
   }
-  nav ul li {
-    width: 100%;
-    background-color: #459a96;
-    border: black solid;
-    padding: 5px;
-  }
-  main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  main .secciones {
-    display: block;
+  .container-mapa {
+    display: none;
   }
   main .container-mujer {
     width: 300px;
     height: 1250px;
     position: relative;
-    top: 50%;
+    top: 20px;
     left: 10%;
   }
   main .medida-card-mujer {
     height: 150px;
     width: 200px;
     position: relative;
-    left: 50px;
+    left: 15%;
   }
   main .container-hombre {
     width: 300px;
     height: 1250px;
+    position: relative;
+    top: 100px;
+    left: 10%;
   }
   main .medida-card-hombre {
     height: 150px;
     width: 200px;
+    left: 15%;
+  }
+  main .container-mujer-buzos {
+    width: 300px;
+    height: 1250px;
     position: relative;
-    left: 50px;
+    top: 20px;
+    left: 10%;
+  }
+  main .medida-card-mujer-buzos {
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 15%;
+  }
+  main .container-hombre-buzos {
+    width: 300px;
+    height: 1250px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+  }
+  main .medida-card-hombre-buzos {
+    height: 150px;
+    width: 200px;
+    left: 15%;
+  }
+  main .container-hombre-pantalones {
+    width: 300px;
+    height: 1250px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+  }
+  main .medida-card-hombre-pantalones {
+    height: 150px;
+    width: 200px;
+    left: 15%;
+  }
+  main .container-hombre-pijama {
+    width: 300px;
+    height: 1250px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+  }
+  main .medida-card-hombre-pijama {
+    height: 150px;
+    width: 200px;
+    left: 15%;
+  }
+  main .container-hombre-remera {
+    width: 300px;
+    height: 1250px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+  }
+  main .medida-card-hombre-remera {
+    height: 150px;
+    width: 200px;
+    left: 15%;
   }
 }
 
